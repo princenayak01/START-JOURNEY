@@ -16,13 +16,28 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(UPLOADS));
 app.use(express.static(path.join(__dirname, 'public')));
 
-function read() { return JSON.parse(fs.readFileSync(DB, 'utf8')); }
-function write(x) { fs.writeFileSync(DB, JSON.stringify(x, null, 2)); }
+function read() {
+  try {
+    if (!fs.existsSync(DB)) return { articles: [], posts: [], subscribers: [], ticker: 'The stories shaping India, one thoughtful read at a time' };
+    const data = JSON.parse(fs.readFileSync(DB, 'utf8'));
+    return { articles: [], posts: [], subscribers: [], ticker: '', ...data };
+  } catch (error) {
+    console.error('[v0] Failed to read data store:', error.message);
+    return { articles: [], posts: [], subscribers: [], ticker: 'The stories shaping India, one thoughtful read at a time' };
+  }
+}
+function write(x) {
+  fs.mkdirSync(path.dirname(DB), { recursive: true });
+  const temp = `${DB}.tmp`;
+  fs.writeFileSync(temp, JSON.stringify(x, null, 2));
+  fs.renameSync(temp, DB);
+}
 function cleanHtml(x = '') {
-  return String(x).replace(/<!\[CDATA\[/g, '').replace(/\]\]>/g, '')
-    .replace(/<[^>]*>/g, ' ').replace(/&amp;/g, '&').replace(/&#39;/g, "'")
-    .replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    .replace(/\s+/g, ' ').trim();
+  let value = String(x).replace(/<!\[CDATA\[/g, '').replace(/\]\]>/g, '');
+  for (let i = 0; i < 2; i += 1) {
+    value = value.replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+  }
+  return value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 function xmlTag(block, tag) {
   const re = new RegExp(`<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tag}>`, 'i');
