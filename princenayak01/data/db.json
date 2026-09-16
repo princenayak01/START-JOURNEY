@@ -516,16 +516,49 @@
       "readTime": "7 min read"
     },
     {
-      "id": "satyam-yaduvanshi-journey",
-      "title": "Satyam Yaduvanshi Journey From a Village to Luxury Life",
-      "description": "Discover how Satyam Yaduvanshi, a 17-year-old solo creator from a small village near Jhansi, built an audience of over 600K followers while balancing school, music and brand collaborations.",
-      "category": "PUBLIC FIGURES",
-      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-15%20at%209.21.19%20AM-W2VRxOsBwt5HVefVfvZVmAyKF0g92A.jpeg",
+      "id": "elvish-yadav-rise",
+      "title": "Elvish Yadav: From YouTube Creator to Pop-Culture Powerhouse",
+      "description": "A profile of Elvish Yadav’s creator journey, digital community and growing influence across entertainment, music and youth culture.",
+      "category": "PUBLIC FIGURES · DIGITAL CULTURE",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=85",
       "source": "STARTS JOURNEY",
-      "publishedAt": "2026-09-14T10:00:00.000Z",
+      "publishedAt": "2026-09-16T09:00:00.000Z",
       "author": "Siddharth Kumar Choudhary",
-      "readTime": "3 min read",
+      "readTime": "6 min read",
       "featuredArticle": true
+    },
+    {
+      "id": "salman-khan-cinema-legacy",
+      "title": "Salman Khan: The Screen Presence That Defined Generations",
+      "description": "How Salman Khan built a lasting connection with audiences through blockbuster cinema, memorable characters and a career that continues to evolve.",
+      "category": "BOLLYWOOD · CINEMA",
+      "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=85",
+      "source": "STARTS JOURNEY",
+      "publishedAt": "2026-09-16T08:30:00.000Z",
+      "author": "Meera Kapoor",
+      "readTime": "7 min read"
+    },
+    {
+      "id": "shah-rukh-khan-global-star",
+      "title": "Shah Rukh Khan: Building a Global Language of Stardom",
+      "description": "From romantic leads to ambitious productions, Shah Rukh Khan’s career shows how conviction and craft can turn a local icon into a global star.",
+      "category": "BOLLYWOOD · CULTURE",
+      "image": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=1200&q=85",
+      "source": "STARTS JOURNEY",
+      "publishedAt": "2026-09-15T13:15:00.000Z",
+      "author": "Aditi Sharma",
+      "readTime": "6 min read"
+    },
+    {
+      "id": "deepika-padukone-beyond-screen",
+      "title": "Deepika Padukone: Ambition, Craft and Life Beyond the Screen",
+      "description": "A look at Deepika Padukone’s journey as an actor, entrepreneur and public voice shaping conversations beyond Indian cinema.",
+      "category": "BOLLYWOOD · PEOPLE",
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=85",
+      "source": "STARTS JOURNEY",
+      "publishedAt": "2026-09-15T10:00:00.000Z",
+      "author": "Rhea Malhotra",
+      "readTime": "5 min read"
     }
   ],
   "posts": [],
