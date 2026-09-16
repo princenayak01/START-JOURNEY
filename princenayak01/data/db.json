@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "id": "live-mu3jo494-b7d8l",
+      "title": "'No way Hemang Badani should be': Former India selector makes out of the box suggestion for CSK head coach - Moneycontrol.com",
+      "description": "'No way Hemang Badani should be': Former India selector makes out of the box suggestion for CSK head coach &nbsp;&nbsp; Moneycontrol.com",
+      "category": "SPORTS · INDIA",
+      "image": "",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOdUlkNmlCRnNEcGFTbEgtOVVWdnRMcFJHU0ZacDBxdlZ5Ykh1QXBWWGgwcGtldWNWaTRjeENXRVptX2dVWFhWQWpOWW1rN01Rd1B0Q1FZUi10VV9MT1RHS2dCVWEybUcwM2hxdm1KdWJBYjhJNDBIVFEtT2dWVll1OHROU2tDNGhfYjVPQkQwbkhieVYzTTdTdE16QXNNMG9tSVR6NXFlWmloZW1lSUZBRnI0OS1MT3lYVllrMmh0QmZKMWlRVmlaS1p0S1ZVdHYxNGNOMlVsTTF3ejNBMUNzVmhaazZpRFF4Um1SdUVyMmN0cWpFOVItZHF1V2k3NWRGU0J3Vy1TczDSAYgCQVVfeXFMTnVJZDZpQkZzRHBhU2xILTlVVnZ0THBSR1NGWnAwcXZWeWJIdUFwVlhoMHBrZXVjVmk0Y3hDV0VabV9nVVhYVkFqTlltazdNUXdQdENRWVItdFVfTE9UR0tnQlVhMm1HMDNocXZtSnViQWI4STQwSFRRLU9nVlZZdTh0TlNrQzRoX2I1T0JEMG5IYnlWM003U3RNekFzTTBvbUlUejVxZVppaGVtZUlGQUZyNDktTE95WFZZazJodEJmSjFpUVZpWktadEtWVXR2MTRjTjJVbE0xd3ozQTFDc1ZoWms2aURReFJtUnVFcjJjdHFqRTlSLWRxdVdpNzVkRlNCd1ctU3Mw?oc=5",
+      "source": "Moneycontrol.com",
+      "publishedAt": "2026-09-15T16:37:53.000Z",
+      "author": "STARTS JOURNEY Live Desk",
+      "readTime": "3 min read",
+      "live": true
+    },
+    {
       "id": "live-mu3jbaa9-v0zu9",
       "title": "Watch: Sofia Hayat makes massive claims about Rohit Sharma - cricketwinner.com",
       "description": "Watch: Sofia Hayat makes massive claims about Rohit Sharma &nbsp;&nbsp; cricketwinner.com",
@@ -478,9 +491,11 @@
     }
   ],
   "posts": [],
-  "subscribers": [],
+  "subscribers": [
+    "princenayak5655@gmail.com"
+  ],
   "ticker": "The stories shaping India, one thoughtful read at a time",
-  "lastSync": "2026-09-16T03:21:58.315Z",
+  "lastSync": "2026-09-16T03:31:56.680Z",
   "lastSyncAdded": 1,
   "lastSyncErrors": []
 }
